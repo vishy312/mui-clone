@@ -1,0 +1,84 @@
+
+
+button{
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    font-weight: 600;
+    display: flex;
+    gap: 0.5em;
+    cursor: pointer;
+}
+
+.contained{
+    background-color: rgb(93, 149, 221);
+    color: white;
+}
+
+.outlined{
+    background-color: white;
+    color:rgb(93, 149, 221);
+    border: 0.5px solid rgb(93, 149, 221);
+}
+
+.text{
+    background-color: white;
+    color:rgb(93, 149, 221);
+}
+
+.contained.secondary{
+    background-color: rgb(182, 74, 182);
+}
+.contained.success{
+    background-color: green;
+}
+.contained.error{
+    background-color: rgb(233, 101, 101);
+}
+.outlined.secondary{
+    color:rgb(182, 74, 182);
+    border-color: rgb(182, 74, 182);
+}
+.outlined.success{
+    color:green;
+    border-color: green;
+}
+.outlined.error{
+    color:rgb(233, 101, 101);
+    border-color: rgb(233, 101, 101);
+}
+.text.error{
+    color: rgb(233, 101, 101);
+}
+.text.success{
+    color: green;
+}
+.text.secondary{
+    color: rgb(182, 74, 182);
+}
+
+.small{
+    font-size: 12px;
+}
+
+.medium{
+    font-size: 14px;
+}
+
+.large{
+    font-size: 16px;
+}
+
+.contained.disabled{
+    color: rgb(177, 177, 177);
+    background-color: rgb(223, 221, 221);
+}
+
+.outlined.disabled{
+    color: rgb(177, 177, 177);
+    border-color: rgb(177, 177, 177);
+}
+
+.text.disabled{
+    color: rgb(177, 177, 177);
+}
